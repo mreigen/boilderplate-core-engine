@@ -1,2 +1,2 @@
-Core::Engine.routes.draw do
+Boilerplate::Core::Engine.routes.draw do
 end

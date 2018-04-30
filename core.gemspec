@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "core/version"
+require "boilerplate/core/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "boilerplate-core"
-  s.version     = Core::VERSION
+  s.version     = Boilerplate::Core::VERSION
   s.authors     = ["Minh Reigen"]
   s.email       = ["mreigen@gmail.com"]
   s.homepage    = "http://minhreigen.com"
